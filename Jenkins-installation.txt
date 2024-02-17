@@ -46,6 +46,9 @@ systemctl status jenkins
 Step 12: Enable Jenkins service to start on boot
 sudo systemctl enable jenkins
 
+step 13: Install Git
+sudo yum install git
+
 Step 13: Get Jenkins initial admin password
 cat /var/lib/jenkins/secrets/initialAdminPassword
 
